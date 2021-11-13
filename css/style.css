@@ -1,0 +1,883 @@
+                                        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,600;0,700;0,900;1,200;1,400;1,600&display=swap');
+
+                                        /*font link-----------*/
+                                        * {
+                                            margin: 0;
+                                            padding: 0;
+                                        }
+
+                                        body {
+                                            background-color: #0b0c22;
+                                            font-family: 'Titillium Web', sans-serif;
+
+                                        }
+
+                                        /*start manu part--*/
+                                        .navbar {
+                                            position: fixed;
+                                            z-index: 500;
+                                            width: 100%;
+                                            padding: 0;
+                                            transition: all 2s ease;
+                                        }
+
+                                        .manu_bg {
+                                            background: #131536;
+                                        }
+
+                                        .navbar a img {
+
+                                            width: 80px;
+                                            height: 70px;
+                                            border-radius: 50%;
+                                            border: none;
+                                            margin-bottom: 20px;
+                                        }
+
+                                        .navbar a h4 {
+                                            color: #fff;
+                                            font-weight: bold;
+                                            font-size: 28px;
+                                            display: inline;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link {
+                                            color: #fff;
+                                            font-weight: 600;
+                                            position: relative;
+                                        }
+
+                                        .navbar li.nav-item {}
+
+                                        .navbar-light .navbar-nav .nav-link:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 70%;
+                                            height: 3px;
+                                            left: 50%;
+                                            transform: translate(-50%, -50%);
+                                            bottom: 0;
+                                            opacity: 0;
+                                            background: #033ab0;
+                                            border-bottom: 1px solid #033ab0;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link:hover:after {
+                                            opacity: 1;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link:focus {
+                                            color: #fff;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link:hover {
+                                            color: #033ab0;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link.active {
+                                            color: #033ab0;
+                                        }
+
+                                        .navbar-light .navbar-nav .nav-link.active:after {
+                                            opacity: 1;
+                                        }
+
+
+                                        /*end manu part----*/
+
+                                        /*banaer part start-----*/
+                                        #banerPart {
+                                            background-image: url(../photo/bg.jpg);
+                                            background-size: cover;
+                                            background-position: center;
+                                            background-repeat: no-repeat;
+                                            position: relative;
+                                        }
+
+                                        #banerPart:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 100%;
+                                            height: 100%;
+                                            top: 0;
+                                            left: 0;
+                                            background: rgba(-2, -2, 77, 0.7);
+                                        }
+
+
+
+                                        #banerPart .baner-img img {
+                                            border-radius: 50%;
+                                            margin-top: 160px;
+                                            border: 5px solid #fff;
+                                            position: relative;
+                                            z-index: 99;
+                                        }
+
+                                        .typedSlider h1 {
+                                            color: #fff;
+                                            font-size: 40px;
+                                            font-weight: bold;
+                                            padding-bottom: 70px;
+                                            position: relative;
+                                            z-index: 99;
+                                        }
+
+                                        /*baner part end----------------------------------------------------------------------------*/
+                                        /*typed js css---start--------------------------------------------------------------*/
+
+                                        /*Add custom cursor so it auto inherits font styles*/
+                                        .typed::after {
+                                            content: '|';
+                                            display: inline;
+                                            -webkit-animation: blink 0.7s infinite;
+                                            -moz-animation: blink 0.7s infinite;
+                                            animation: blink 0.7s infinite;
+                                        }
+
+                                        /*Removes cursor that comes with typed.js*/
+                                        .typed-cursor {
+                                            opacity: 0;
+                                            display: none;
+                                        }
+
+                                        /*Custom cursor animation*/
+                                        @keyframes blink {
+                                            0% {
+                                                opacity: 1;
+                                            }
+
+                                            50% {
+                                                opacity: 0;
+                                            }
+
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+
+                                        @-webkit-keyframes blink {
+                                            0% {
+                                                opacity: 1;
+                                            }
+
+                                            50% {
+                                                opacity: 0;
+                                            }
+
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+
+                                        @-moz-keyframes blink {
+                                            0% {
+                                                opacity: 1;
+                                            }
+
+                                            50% {
+                                                opacity: 0;
+                                            }
+
+                                            100% {
+                                                opacity: 1;
+                                            }
+                                        }
+
+                                        /*typed js css---end-------------------------------------------------------*/
+                                        /*practical jss-----------------------------------------------------------start*/
+                                        #particles-js {
+                                            position: absolute;
+                                            width: 100%;
+                                            height: 100%;
+                                            z-index: 99;
+
+                                        }
+
+                                        /*practical jss-----------------------------------------------------------end*/
+
+                                        /*about part start-------------------------------------------------------------*/
+                                        #aboutPart {
+                                            position: relative;
+                                            z-index: 99;
+                                            background-color: #07081c;
+                                            padding: 80px 0;
+                                        }
+
+                                        #aboutPart .about-top-text {
+                                            color: #ffffff;
+                                            text-align: center;
+                                        }
+
+                                        #aboutPart .about-top-text h1 {
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                            position: relative;
+
+                                            margin-bottom: 70px;
+                                        }
+
+                                        #aboutPart .about-top-text h1:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 50px;
+                                            height: 3px;
+                                            background: #0d15ff;
+                                            bottom: -30px;
+                                            left: 50%;
+                                            transform: translate(-50%);
+                                        }
+
+                                        #aboutPart .about-img img {
+                                            border-radius: 50%;
+                                            margin-top: 75px;
+                                            border: 5px solid #fff;
+                                        }
+
+                                        #aboutPart .about-text h2 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            font-weight: 700;
+                                            margin-bottom: 50px;
+                                        }
+
+                                        #aboutPart .about-text p {
+                                            color: #d5edfb;
+                                            text-align: justify;
+                                            font-size: 16px;
+                                            line-height: 23px;
+                                        }
+
+                                        #aboutPart .about-text a {
+                                            font-size: 18px;
+                                            padding: 15px 30px;
+                                            color: #fff;
+                                            border: 2px solid #fff;
+                                            font-weight: bold;
+                                            margin-top: 50px;
+                                        }
+
+                                        #aboutPart .about-text a:hover {
+                                            color: #444;
+                                            background: #e5ff10;
+                                        }
+
+                                        /*about part end-------------------------------------------------------------*/
+
+                                        /*education text-----------------------------------------------start*/
+
+                                        #educationPart {
+                                            position: relative;
+                                        }
+
+                                        .education-top-part {
+                                            color: #fff;
+                                        }
+
+                                        .education-top-part h1 {
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                        }
+
+                                        .education-top-part p {
+                                            font-size: 16px;
+                                            letter-spacing: 1px;
+                                            font-weight: 300;
+                                            position: relative;
+                                            margin-bottom: 70px;
+                                        }
+
+                                        .education-top-part p:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 50px;
+                                            height: 3px;
+                                            background: #0d15ff;
+                                            top: 180%;
+                                            left: 50%;
+                                            transform: translate(-50%);
+                                        }
+
+                                        #educationPart {
+                                            padding: 80px 0;
+
+                                        }
+
+                                        .education-text {
+                                            color: #fff;
+                                            color: #fff;
+                                            border: 1px solid #000;
+                                            box-shadow: 0px 0px 7px 3px #000;
+                                        }
+
+                                        .education-text .education-bottom-text h2 {
+                                            display: inline-block;
+                                            padding-top: 10px;
+                                            font-size: 30px;
+                                            font-weight: bold;
+                                            color: #e5ff10;
+                                        }
+
+                                        .education-text .education_h2 {
+                                            float: right
+                                        }
+
+                                        .education-bottom-text {
+                                            padding: 5px;
+                                        }
+
+                                        .education-bottom-text h3 {
+                                            font-size: 25px;
+                                            font-weight: bold;
+                                            color: #ffffff;
+                                            letter-spacing: 5px;
+                                            padding: 10px 0px 10px 0px;
+                                        }
+
+                                        .education-bottom-text p {
+                                            font-size: 16px;
+                                            font-weight: 300;
+                                            line-height: 25px;
+                                            color: #d5edfb;
+                                        }
+
+                                        .education-bottom-text a {
+                                            font-size: 18px;
+                                            padding: 15px 30px;
+                                            color: #fff;
+                                            border: 2px solid #fff;
+                                            font-weight: bold;
+                                            margin: 10px 0px 10px 0px;
+                                            width: 100%;
+                                        }
+
+                                        .education-bottom-text a:hover {
+                                            color: #444;
+                                            background: #e5ff10;
+                                        }
+
+                                        .slick-dots {
+                                            position: absolute;
+                                            bottom: -10%;
+                                            text-align: center;
+                                            left: 50%;
+                                            transform: translateX(-50%)
+                                        }
+
+                                        .slick-dots li {
+                                            width: 20px;
+                                            height: 20px;
+                                            position: relative;
+                                            line-height: 20px;
+                                            border: 1px solid #fff;
+                                            border-radius: 50%;
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                        }
+
+                                        .slick-dots li button {
+                                            color: transparent;
+                                            width: 10px;
+                                            height: 10px;
+                                            line-height: 9px;
+                                            border-radius: 50%;
+                                            background: #fff;
+                                            text-align: center;
+                                            margin: auto;
+                                            border: none;
+                                            opacity: 0;
+                                        }
+
+                                        .slick-dots li.slick-active button {
+                                            opacity: 1;
+                                        }
+
+                                        .team_arrow_left {
+                                            position: absolute;
+                                            left: 5%;
+                                            top: 58%;
+                                            font-size: 30px;
+                                            color: #fff;
+                                        }
+
+                                        .team_arrow_right {
+                                            position: absolute;
+                                            right: 5%;
+                                            top: 58%;
+                                            font-size: 30px;
+                                            color: #fff;
+                                        }
+
+
+
+                                        /*education text-----------------------------------------------end*/
+
+                                        /*ORDER part ---------------------------start*/
+                                        #orderPart {
+                                            background-color: #07081c;
+                                            padding: 80px 0;
+                                            position: relative;
+                                        }
+
+                                        #orderPart .order-top-text {
+                                            color: #fff;
+                                        }
+
+                                        #orderPart .order-top-text h1 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            font-weight: 700;
+                                        }
+
+                                        #orderPart .order-top-text p {
+                                            font-size: 16px;
+                                            letter-spacing: 1px;
+                                            font-weight: 300;
+                                            position: relative;
+                                            margin-bottom: 70px;
+                                        }
+
+                                        #orderPart .order-top-text p:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 50px;
+                                            height: 3px;
+                                            background: #0d15ff;
+                                            top: 180%;
+                                            left: 50%;
+                                            transform: translate(-50%);
+                                        }
+
+                                        .order-part-left {
+                                            color: #ffffff;
+                                        }
+
+                                        .order-part-left h2 {
+                                            font-weight: bold;
+                                            color: #ffffff;
+                                            font-size: 22px;
+                                            margin-bottom: 30px;
+
+                                        }
+
+                                        .order-part-right h3 {
+                                            font-weight: bold;
+                                            color: #ffffff;
+                                            font-size: 22px;
+                                            margin-bottom: 30px;
+                                            text-align: center;
+
+                                        }
+
+                                        .order-part-left p {
+                                            color: #d5edfb;
+                                            text-align: justify;
+                                            font-size: 16px;
+                                            padding-bottom: 48px;
+                                            line-height: 23px;
+                                        }
+
+                                        .order-part-left a {
+                                            font-size: 18px;
+                                            padding: 15px 30px;
+                                            color: #fff;
+                                            border: 2px solid #fff;
+                                            font-weight: bold;
+                                            margin: 90px 0px 0px 0px;
+                                        }
+
+                                        .order-part-left a:hover {
+                                            color: #444;
+                                            background: #e5ff10;
+                                        }
+
+                                        .order-part-right .order-img {
+                                            padding-bottom: 33px;
+                                        }
+
+                                        .order-part-right a {
+                                            font-size: 18px;
+                                            padding: 15px 30px;
+                                            color: #fff;
+                                            border: 2px solid #fff;
+                                            font-weight: bold;
+                                            margin: 10px 0px 10px 0px;
+                                            float: right;
+                                            width: 100%;
+                                        }
+
+                                        .order-part-right a:hover {
+                                            color: #444;
+                                            background: #e5ff10;
+                                        }
+
+                                        .full-wraper {
+                                            border: 1px solid #000;
+                                            padding: 10px;
+                                            box-shadow: 0px 0px 7px 3px #000;
+                                        }
+
+                                        .order_arrow_left {
+                                            position: absolute;
+                                            left: 5%;
+                                            top: 58%;
+                                            font-size: 30px;
+                                            color: #fff;
+                                        }
+
+                                        .order_arrow_right {
+                                            position: absolute;
+                                            right: 5%;
+                                            top: 58%;
+                                            font-size: 30px;
+                                            color: #fff;
+                                        }
+
+                                        .order-not-fond {
+                                            padding-bottom: 160px;
+                                        }
+
+                                        .order-part-left a {
+                                            margin: 191px 0px 40px 0px;
+                                        }
+
+                                        /*ORDER part ---------------------------end*/
+                                        /*gellay part-------------start*/
+
+                                        #gallery {
+                                            padding: 80px 0;
+                                        }
+
+                                        #gallery .gallert-top-text {
+                                            text-align: center;
+                                            color: #ffffff;
+                                        }
+
+                                        #gallery .gallert-top-text h1 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            font-weight: 700;
+                                        }
+
+                                        #gallery .gallert-top-text p {
+                                            font-size: 16px;
+                                            letter-spacing: 1px;
+                                            font-weight: 300;
+                                            position: relative;
+                                            margin-bottom: 70px;
+                                            color: #d5edfb;
+                                        }
+
+
+
+                                        #gallery .gallert-top-text p:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 50px;
+                                            height: 3px;
+                                            background: #0d15ff;
+                                            top: 180%;
+                                            left: 50%;
+                                            transform: translate(-50%);
+                                        }
+
+                                        #gallery .gellary-img {
+                                            border: 1px solid #fff;
+
+                                        }
+
+                                        #gallery .gellary-img {
+                                            border: 1px solid #000000;
+                                            box-shadow: 0px 0px 5px 3px #000000;
+                                        }
+
+                                        .gellary_text {
+                                            color: #fff;
+                                            text-align: center;
+                                            letter-spacing: 35px;
+                                            font-size: 50px;
+                                            transform: rotate(-21deg);
+                                            margin-top: 90px;
+                                        }
+
+                                        /*gellay part-------------end*/
+
+                                        /*contact part  ----------------------start*/
+                                        #contact_part {
+                                            background: #07081c;
+                                            padding: 80px 0;
+                                        }
+
+                                        #contact_part .contact-top-text {
+                                            color: #ffffff;
+                                            text-align: center;
+                                        }
+
+                                        #contact_part .contact-top-text h1 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            font-weight: 700;
+                                        }
+
+                                        #contact_part .contact-top-text p {
+                                            font-size: 16px;
+                                            letter-spacing: 1px;
+                                            font-weight: 300;
+                                            position: relative;
+                                            margin-bottom: 70px;
+                                            color: #d5edfb;
+                                        }
+
+                                        #contact_part .contact-top-text p:after {
+                                            position: absolute;
+                                            content: '';
+                                            width: 50px;
+                                            height: 3px;
+                                            background: #0d15ff;
+                                            top: 180%;
+                                            left: 50%;
+                                            transform: translate(-50%);
+                                        }
+
+                                        #contact_part .contact-left h3,
+                                        #contact_part .contact-right h3 {
+                                            color: #fff;
+                                            font-size: 20px;
+                                            font-weight: bold;
+                                            padding-bottom: 50px;
+                                        }
+
+                                        #contact_part .contact-left input {
+                                            background-color: transparent;
+                                            color: #fff;
+                                            border-radius: 0;
+                                        }
+
+                                        #contact_part .contact-left textarea {
+                                            background-color: transparent;
+                                            color: #fff;
+                                            border-radius: 0;
+                                        }
+
+                                        #contact_part .contact-left button {
+                                            font-size: 18px;
+                                            padding: 15px 30px;
+                                            color: #fff;
+                                            border: 2px solid #fff;
+                                            font-weight: bold;
+                                            margin: 10px 0px 10px 0px;
+                                            float: right;
+                                            width: 100%;
+                                            text-transform: uppercase;
+                                        }
+
+                                        #contact_part .contact-left button:hover {
+                                            color: #444;
+                                            background: #e5ff10;
+                                        }
+
+                                        .contact-right img {
+                                            padding-bottom: 50px;
+                                        }
+
+                                        /*contact part  ----------------------end*/
+
+                                        /*footer part -----------------------start*/
+
+                                        #footerPart {
+                                            padding: 80px 0;
+                                        }
+
+                                        #footerPart .footer-left .footer-logo img {
+                                            width: 70px;
+                                            height: 60px;
+                                            border-radius: 50%;
+                                            border: none;
+                                            margin-bottom: 20px;
+                                        }
+
+                                        .footer-logo {
+                                            padding-bottom: 25px;
+                                        }
+
+                                        #footerPart .footer-left .footer-logo h4 {
+                                            display: inline-block;
+                                            color: #fff;
+                                            font-size: 25px;
+                                            font-weight: bold;
+                                        }
+
+                                        #footerPart .footer-left p {
+                                            color: #d5edfb;
+                                            text-align: justify;
+                                            font-size: 16px;
+                                            padding-right: 70px;
+                                            line-height: 25px;
+                                        }
+
+                                        .footer-center h3 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            margin-top: 25px;
+                                            font-weight: bold;
+                                            padding-bottom: 48px;
+                                        }
+
+                                        .footer-center i,
+                                        .footer-right i {
+                                            padding-right: 10px;
+                                            font-size: 16px;
+                                            color: #ffffff;
+                                            font-size: 18px;
+                                        }
+
+                                        .footer-center p,
+                                        .footer-right p {
+                                            color: #d5edfb;
+                                            text-align: justify;
+                                            font-size: 16px;
+                                        }
+
+                                        .footer-right h3 {
+                                            color: #fff;
+                                            font-size: 25px;
+                                            margin-top: 25px;
+                                            font-weight: bold;
+                                            padding-bottom: 48px;
+                                        }
+
+                                        .footer-right ul {
+                                            list-style-type: none;
+
+                                        }
+
+                                        .footer-right ul li {
+                                            text-align: center;
+                                            display: inline-block;
+                                            margin-right: 10px;
+                                            margin-top: 20px;
+                                            width: 40px;
+                                            height: 40px;
+                                            line-height: 40px;
+                                            border: 1px solid #fff;
+                                            border-radius: 50%;
+                                        }
+
+                                        .footer-right ul li a {
+                                            text-align: center;
+                                            padding-left: 9px;
+                                        }
+
+                                        #footerLast {
+                                            background: #07081c;
+                                            padding: 30px 0;
+                                        }
+
+                                        #footerLast .footer-last-left ul {
+                                            list-style-type: none;
+                                            margin-bottom: 0;
+                                        }
+
+                                        #footerLast .footer-last-left ul li {
+                                            margin-right: 10px;
+                                            display: inline-block;
+                                        }
+
+                                        #footerLast .footer-last-left ul li a {
+                                            color: #fff;
+                                            text-decoration: none;
+                                            font-size: 16px;
+                                        }
+
+                                        #footerLast .footer-last-right p {
+                                            color: #d5edfb;
+                                            text-align: justify;
+                                            font-size: 16px;
+                                            margin-bottom: 0;
+                                            float: right;
+                                        }
+
+                                        /*footer part -----------------------end*/
+                                        /*loder------------------start*/
+                                        #preloader {
+                                            position: fixed;
+                                            top: 0;
+                                            left: 0;
+                                            background: #222;
+                                            width: 100%;
+                                            height: 100%;
+                                            z-index: 999;
+                                        }
+
+                                        #loader {
+                                            display: block;
+                                            position: relative;
+                                            left: 50%;
+                                            top: 50%;
+                                            width: 150px;
+                                            height: 150px;
+                                            margin: -75px 0 0 -75px;
+                                            border-radius: 50%;
+                                            border: 3px solid transparent;
+                                            border-top-color: #9370DB;
+                                            -webkit-animation: spin 2s linear infinite;
+                                            animation: spin 2s linear infinite;
+                                        }
+
+                                        #loader:before {
+                                            content: "";
+                                            position: absolute;
+                                            top: 5px;
+                                            left: 5px;
+                                            right: 5px;
+                                            bottom: 5px;
+                                            border-radius: 50%;
+                                            border: 3px solid transparent;
+                                            border-top-color: #BA55D3;
+                                            -webkit-animation: spin 3s linear infinite;
+                                            animation: spin 3s linear infinite;
+                                        }
+
+                                        #loader:after {
+                                            content: "";
+                                            position: absolute;
+                                            top: 15px;
+                                            left: 15px;
+                                            right: 15px;
+                                            bottom: 15px;
+                                            border-radius: 50%;
+                                            border: 3px solid transparent;
+                                            border-top-color: #FF00FF;
+                                            -webkit-animation: spin 1.5s linear infinite;
+                                            animation: spin 1.5s linear infinite;
+                                        }
+
+                                        @-webkit-keyframes spin {
+                                            0% {
+                                                -webkit-transform: rotate(0deg);
+                                                -ms-transform: rotate(0deg);
+                                                transform: rotate(0deg);
+                                            }
+
+                                            100% {
+                                                -webkit-transform: rotate(360deg);
+                                                -ms-transform: rotate(360deg);
+                                                transform: rotate(360deg);
+                                            }
+                                        }
+
+                                        @keyframes spin {
+                                            0% {
+                                                -webkit-transform: rotate(0deg);
+                                                -ms-transform: rotate(0deg);
+                                                transform: rotate(0deg);
+                                            }
+
+                                            100% {
+                                                -webkit-transform: rotate(360deg);
+                                                -ms-transform: rotate(360deg);
+                                                transform: rotate(360deg);
+                                            }
+                                        }
+
+                                        /*loder end------------------*/

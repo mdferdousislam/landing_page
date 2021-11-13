@@ -1,0 +1,425 @@
+                /*Extra small devices (portrait phones, less than 576px)*/
+
+                @media (max-width: 575.98px) {
+                    .navbar-toggler-icon {
+                        background: #fff;
+                    }
+
+                    .navbar-nav {
+                        text-align: center;
+                        background: #131536;
+                    }
+
+                    .navbar-light .navbar-nav .nav-link::after {
+                        width: 30%;
+                    }
+
+                    .about-img {
+                        text-align: center;
+                    }
+
+                    #aboutPart .about-text h2 {
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+
+                    margin-bottom: 5px;
+                }
+
+                #aboutPart .about-img img {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                #aboutPart .about-text a {
+                    width: 100%;
+                }
+
+                .team_arrow_right {
+                    right: 20%;
+                    top: 89%;
+                }
+
+
+                .team_arrow_left {
+                    left: 20%;
+                    top: 89%;
+                }
+
+                .order-part-left h2 {
+                    text-align: center;
+                }
+
+                .order-part-left a {
+                    width: 100%;
+                }
+
+                .order-part-left p {
+                    padding-bottom: 0px;
+                }
+
+                .order-part-left a {
+                    margin: 50px 0px 40px 0px;
+                }
+
+                .slick-dots {
+                    bottom: -6%;
+                }
+
+                .order-not-fond {
+                    padding-bottom: 212px;
+                }
+
+                #educationPart .slick-dots {
+                    bottom: -11%;
+                }
+
+                .order_arrow_right {
+                    right: 25%;
+                    top: 95%;
+                }
+
+                .order-part-right .order-img {
+                    width: 200px;
+                    /* height: 200px; */
+                    text-align: center;
+                }
+
+                .order_arrow_left {
+                    left: 25%;
+                    top: 95%;
+                }
+
+                .gellary_text {
+                    letter-spacing: 18px;
+                    font-size: 30px;
+                    transform: rotate(-24deg);
+                    margin-top: 42px;
+                    margin-bottom: 45px;
+                }
+
+                #contact_part .contact-left h3,
+                #contact_part .contact-right h3 {
+                    text-align: center;
+                }
+
+                #contact_part .contact-left button {
+                    margin: 10px 0px 45px 0px;
+                }
+
+                #contact_part {
+                    padding: 40px 0;
+                }
+
+                .footer-logo {
+                    padding-bottom: 5px;
+                }
+
+                .footer-center h3 {
+                    padding-bottom: 15px;
+                }
+
+                .footer-right h3 {
+                    padding-bottom: 20px;
+                }
+
+                #footerPart {
+                    padding: 40px 0;
+                }
+                }
+
+
+
+
+
+
+                /*// Small devices (landscape phones, 576px and up)*/
+
+                @media (min-width: 576px) and (max-width: 767.98px) {
+                    .navbar-toggler-icon {
+                        background: #fff;
+                    }
+
+                    .navbar-nav {
+                        text-align: center;
+                        background: #131536;
+                    }
+
+                    .navbar-light .navbar-nav .nav-link::after {
+                        width: 30%;
+                    }
+
+                    .about-img {
+                        text-align: center;
+                    }
+
+                    #aboutPart .about-text h2 {
+                        text-align: center;
+                        margin-top: 40px;
+                    }
+
+                    margin-bottom: 5px;
+                }
+
+                #aboutPart .about-img img {
+                    width: 300px;
+                    height: 300px;
+                }
+
+                #aboutPart .about-text a {
+                    width: 100%;
+                }
+
+                .team_arrow_right {
+                    right: 20%;
+                    top: 89%;
+                }
+
+
+                .team_arrow_left {
+                    left: 20%;
+                    top: 89%;
+                }
+
+                .order-part-left h2 {
+                    text-align: center;
+                }
+
+                .order-part-left a {
+                    width: 100%;
+                }
+
+                .order-part-left p {
+                    padding-bottom: 0px;
+                }
+
+                .order-part-left a {
+                    margin: 50px 0px 40px 0px;
+                }
+
+                .full-wraper {
+                    max-height: 1050px;
+                }
+
+                .slick-dots {
+                    bottom: -6%;
+                }
+
+                .order-not-fond {
+                    padding-bottom: 212px;
+                }
+
+                #educationPart .slick-dots {
+                    bottom: -11%;
+                }
+
+                .order_arrow_right {
+                    right: 25%;
+                    top: 95%;
+                }
+
+                .order_arrow_left {
+                    left: 25%;
+                    top: 95%;
+                }
+
+                .gellary_text {
+                    letter-spacing: 18px;
+                    font-size: 30px;
+                    transform: rotate(-24deg);
+                    margin-top: 42px;
+                    margin-bottom: 45px;
+                }
+
+                #contact_part .contact-left h3,
+                #contact_part .contact-right h3 {
+                    text-align: center;
+                }
+
+                #contact_part .contact-left button {
+                    margin: 10px 0px 45px 0px;
+                }
+
+                #contact_part {
+                    padding: 40px 0;
+                }
+
+                .footer-logo {
+                    padding-bottom: 5px;
+                }
+
+                .footer-center h3 {
+                    padding-bottom: 15px;
+                }
+
+                .footer-right h3 {
+                    padding-bottom: 20px;
+                }
+
+                #footerPart {
+                    padding: 40px 0;
+                }
+
+                /*                    578 midea end------------------------------------------*/
+                }
+
+
+
+
+
+
+                /*// Medium devices (tablets, 768px and up)*/
+
+                @media (min-width: 768px) and (max-width: 991.98px) {
+                    .navbar-toggler-icon {
+                        background: #fff;
+                    }
+
+                    .navbar-nav {
+                        text-align: center;
+                        background: #131536;
+                    }
+
+                    .navbar-light .navbar-nav .nav-link::after {
+                        width: 25%;
+                    }
+
+                    .about-img {
+                        text-align: center;
+                    }
+
+                    .about-text {
+                        text-align: center;
+                        padding-top: 35px;
+                    }
+
+                    #aboutPart .about-text a {
+                        width: 100%;
+                    }
+
+                    .team_arrow_right {
+                        right: 1%;
+                    }
+
+                    .team_arrow_left {
+                        left: 1%;
+                    }
+
+
+                    .order-part-right a {
+                        margin: 157px 0px -30px 0px;
+                    }
+
+                    .order-part-left a {
+                        margin: -19px 0px 0px 0px;
+                        width: 100%;
+                    }
+
+                    .order-not-fond {
+                        padding-bottom: 83px;
+                    }
+
+                    .order-part-left h2 {
+                        font-size: 21px;
+                    }
+
+                    .order-part-right h3 {
+                        font-size: 21px;
+                    }
+
+                    .order_arrow_right {
+                        right: 35%;
+                        top: 91%;
+                    }
+
+                    .order_arrow_left {
+                        left: 35%;
+                        top: 91%;
+                    }
+
+                    .gellary_text {
+                        letter-spacing: 23px;
+                        font-size: 40px;
+                        transform: rotate(-20deg);
+                        margin-top: 33px;
+                        margin-bottom: 57px;
+                    }
+
+                    #contact_part .contact-left h3,
+                    #contact_part .contact-right h3 {
+                        text-align: center;
+                    }
+
+                    #contact_part .contact-left button {
+                        margin: 10px 0px 25px 0px;
+                    }
+
+                    #contact_part {
+                        padding: 40px 0;
+                    }
+
+                    #aboutPart .about-img img {
+                        width: 400px;
+                        height: 400px;
+                    }
+
+
+                    /*                    778 midiaa end-------------------------*/
+
+                }
+
+
+
+
+
+
+
+
+
+
+
+
+                @media (min-width: 992px) and (max-width: 1199px) {
+                    .team_arrow_left {
+                        left: 0%;
+                    }
+
+                    .team_arrow_right {
+                        right: 0%;
+                    }
+
+                    .order_arrow_left {
+                        left: 30%;
+                        z-index: 99;
+                        top: 92%;
+                    }
+
+                    .order_arrow_right {
+                        right: 30%;
+                        z-index: 99;
+                        top: 92%;
+                    }
+
+                    .footer-right ul li {
+                        margin-right: 5px;
+                    }
+
+
+
+
+
+                    /*the end 992 media------------------------------------------------*/
+                }
+
+
+
+
+
+
+
+
+                /*// Extra large devices (large desktops, 1200px and up)*/
+
+                @media (min-width: 1200px) {
+                    ...
+                }
